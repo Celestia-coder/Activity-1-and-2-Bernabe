@@ -41,3 +41,4 @@ do
 
 } while (playAgain);
 
+Console.WriteLine("\nThanks for playing!");
