@@ -21,7 +21,17 @@ do
         Console.Write($"\nEnter a number from {min} - {max}: ");
         guess = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine($"Guess: {guess}");
-        attempts++;
+
+        if (guess > number)
+        {
+            Console.WriteLine($"{guess} is too high");
+        } 
+        else if (guess < number)
+        {
+            Console.WriteLine($"{guess} is too low");
+        }
+
+            attempts++;
     }
 
     Console.WriteLine($"\nCorrect guess!! {guess} = {number}");
