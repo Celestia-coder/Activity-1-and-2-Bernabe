@@ -1,6 +1,10 @@
 ﻿# Activity 1 and 2 - Bernabe
 
+<<<<<<< HEAD
 ## Activity 1: Number Guessing Game🎲
+=======
+## ACTIVITY 1: Number Guessing Game🎲
+>>>>>>> 59da543977e346ac87a40510acf3f0b0fad64fbb
 
 This is a simple C# console game.  
 The computer randomly picks a number between 1 and 10, and you try to guess it.  
